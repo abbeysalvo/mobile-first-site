@@ -1,0 +1,16 @@
+.btn {
+  background-color: $primary-dark;
+  color: white;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  text-decoration: none;
+
+  &--secondary {
+    background-color: $secondary-dark;
+  }
+
+  &--lrg {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.2rem;
+  }
+}
