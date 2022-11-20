@@ -1,0 +1,29 @@
+@define-mixin atMobile {
+  @media (min-width: 440px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atTablet {
+  @media (min-width: 760px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atDesktop {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+/*@define-mixin tablet-lg {
+  .tablet-lg\:@mixin-content;
+}*/

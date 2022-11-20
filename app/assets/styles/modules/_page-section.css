@@ -1,0 +1,12 @@
+.page-section {
+  padding: 1.2rem 0;
+
+  @mixin atTablet {
+    font-size: 4.5rem 0;
+  }
+
+  &--primary {
+    background-color: $primary-dark;
+    color: white;
+  }
+}
